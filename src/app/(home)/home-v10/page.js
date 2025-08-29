@@ -1,14 +1,14 @@
 import MobileMenu from "@/components/common/mobile-menu";
-import Footer from "@/components/home/home-v10/footer";
+import Footer from "@/components/home/home-v10/footer/Footer";
 import ApartmentType from "@/components/home/home-v10/ApartmentType";
-import WhyChoose from "@/components/home/home-v10/why-choose";
+import WhyChoose from "@/components/home/home-v10/why-choose/WhyChoose";
 import Blog from "@/components/common/Blog";
 import Link from "next/link";
 import Map from "@/components/home/home-v10/Map";
 import Header from "@/components/home/home-v10/Header";
-import FilterWithProperties from "@/components/home/home-v10/filter-with-property";
+import FilterWithProperties from "@/components/home/home-v10/filter-with-property/FilterWithProperty";
 import Explore from "@/components/common/Explore";
-import FeaturedListings from "@/components/home/home-v10/FeatuerdListings";
+import FeaturedListings from "@/components/home/home-v10/FeaturedListings";
 import FunFact from "@/components/home/home-v10/FunFact";
 import PropertiesByCities from "@/components/home/home-v10/PropertiesByCities";
 import Testimonial from "@/components/home/home-v10/Testimonial";
@@ -367,3 +367,4 @@ const Home_V10 = () => {
 };
 
 export default Home_V10;
+
