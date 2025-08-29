@@ -4,7 +4,8 @@ import ApartmentType from "@/components/home/home-v10/ApartmentType";
 import WhyChoose from "@/components/home/home-v10/why-choose/WhyChoose";
 import Blog from "@/components/common/Blog";
 import Link from "next/link";
-import Map from "@/components/home/home-v10/Map";
+import dynamic from "next/dynamic";
+const Map = dynamic(() => import("@/components/home/home-v10/Map"), { ssr: false });
 import Header from "@/components/home/home-v10/Header";
 import FilterWithProperties from "@/components/home/home-v10/filter-with-property/FilterWithProperty";
 import Explore from "@/components/common/Explore";
@@ -367,3 +368,4 @@ const Home_V10 = () => {
 };
 
 export default Home_V10;
+
