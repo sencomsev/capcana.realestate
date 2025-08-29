@@ -8,12 +8,13 @@ import Map from "@/components/home/home-v10/Map";
 import Header from "@/components/home/home-v10/Header";
 import FilterWithProperties from "@/components/home/home-v10/filter-with-property";
 import Explore from "@/components/common/Explore";
-import FeaturedListings from "@/components/home/home-v10/FeaturedListings";
+import FeaturedListings from "@/components/home/home-v10/FeatuerdListings";
 import FunFact from "@/components/home/home-v10/FunFact";
 import PropertiesByCities from "@/components/home/home-v10/PropertiesByCities";
 import Testimonial from "@/components/home/home-v10/Testimonial";
 import Agents from "@/components/home/home-v10/Agents";
 import BannerSlider from "@/components/home/home-v10/BannerSlider";
+
 export const metadata = {
   title: "Home v10 || Homez - Real Estate NextJS Template",
 };
@@ -283,7 +284,7 @@ const Home_V10 = () => {
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                <h2 className="title">Our Exclusive Agents</h2>
+                <h2 className="title">Our Exclusive Agetns</h2>
                 <p className="paragraph">
                   Aliquam lacinia diam quis lacus euismod
                 </p>
@@ -366,7 +367,3 @@ const Home_V10 = () => {
 };
 
 export default Home_V10;
-
-
-
-
