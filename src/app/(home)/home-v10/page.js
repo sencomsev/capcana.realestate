@@ -14,7 +14,6 @@ import PropertiesByCities from "@/components/home/home-v10/PropertiesByCities";
 import Testimonial from "@/components/home/home-v10/Testimonial";
 import Agents from "@/components/home/home-v10/Agents";
 import BannerSlider from "@/components/home/home-v10/BannerSlider";
-
 export const metadata = {
   title: "Home v10 || Homez - Real Estate NextJS Template",
 };
@@ -367,6 +366,7 @@ const Home_V10 = () => {
 };
 
 export default Home_V10;
+
 
 
 
