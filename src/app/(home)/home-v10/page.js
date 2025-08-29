@@ -272,7 +272,7 @@ const Home_V10 = () => {
       <div className="banner-wrapper main-banner-wrapper  position-relative banner-style-one ">
         <BannerSlider />
       </div>
-      {/* Edn Hero Slide */}
+      {/* End Hero Slide */}
 
       {/* Exclusive Agents */}
       <section className="pb80 pb50-md">
@@ -284,7 +284,7 @@ const Home_V10 = () => {
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                <h2 className="title">Our Exclusive Agetns</h2>
+                <h2 className="title">Our Exclusive Agents</h2>
                 <p className="paragraph">
                   Aliquam lacinia diam quis lacus euismod
                 </p>
@@ -327,7 +327,7 @@ const Home_V10 = () => {
           </div>
         </div>
       </section>
-      {/* Exclusive Agents */}
+      {/* End Exclusive Agents */}
 
       {/* Explore Blog */}
       <section className="pt-0 pb90 pb20-md">
@@ -367,4 +367,3 @@ const Home_V10 = () => {
 };
 
 export default Home_V10;
-
