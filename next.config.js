@@ -1,15 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  sassOptions: {
-    quietDeps: true, // This will silence deprecation warnings
-    silenceDeprecations: [
-      "mixed-decls",
-      "legacy-js-api",
-      "import",
-      "slash-div",
-      "global-builtin",
-    ],
+  async redirects() {
+    return [
+      {
+        source: '/((?!preview-12345).*)', // всё кроме preview-12345
+        destination: '/maintenance',
+        permanent: false,
+      },
+    ]
   },
-};
-
-module.exports = nextConfig;
+}
+module.exports = nextConfig
