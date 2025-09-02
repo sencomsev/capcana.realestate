@@ -17,7 +17,7 @@ import Link from "next/link";
 import PopulerProperty from "@/components/home/home-v1/PopulerProperty";
 
 export const metadata = {
-  title: "Home v1 || Homez - Real Estate NextJS Template",
+  title: "Cap Cana Real Esate",
 };
 
 const Home_V1 = () => {
@@ -349,3 +349,4 @@ const Home_V1 = () => {
 };
 
 export default Home_V1;
+
