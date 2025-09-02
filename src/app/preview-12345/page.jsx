@@ -1,6 +1,8 @@
-import { redirect } from "next/navigation";
+// Рисуем домашнюю прямо здесь, без redirect
+import Home_V10 from "../(home)/home-v10/page";
+
+export const dynamic = "force-static"; // можно убрать, просто на всякий
 
 export default function Preview() {
-  // отправляем прямо на реальный роут демо-домашки
-  redirect("/home-v10");
+  return <Home_V10 />;
 }
